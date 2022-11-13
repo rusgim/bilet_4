@@ -27,7 +27,6 @@ public class Main {
             if (rename[i] == null) {
                 if (i != rename.length) {
                     System.arraycopy(rename, i, rename, i, rename.length-i );
-// Этот метод сдвигает массив влево на одну ячейку, затирая ячейку под номером i путем смещения всех элементов справа на одну ячейку влево
                 }
                 System.out.println("");
                 return;
